@@ -1,0 +1,404 @@
+@media (max-width: 479px)
+{
+    /*--------------
+        Fancybox
+    --------------*/
+    .fancybox__slide
+    {
+        padding: 16px;
+    }
+
+    .fancybox__content > .carousel__button.is-close
+    {
+        top: -12px;
+        right: -12px;
+    }
+
+
+
+    /*---------------
+        Accordion
+    ---------------*/
+    .accordion .accordion_item .head
+    {
+        padding: 16px 48px 16px 20px;
+    }
+
+
+    .accordion .accordion_item .head .title
+    {
+        font-size: 15px;
+    }
+
+
+    .accordion .accordion_item .head .icon
+    {
+        right: 16px;
+
+        width: 15px;
+        height: 9px;
+    }
+
+
+    .accordion .accordion_item .data
+    {
+        padding: 4px 20px 20px;
+    }
+
+
+
+    /*------------
+        Header
+    ------------*/
+    header .logo img
+    {
+        width: 108px;
+    }
+
+
+    header .phone
+    {
+        font-size: 14px;
+        line-height: 22px;
+    }
+
+
+    header .mob_menu_btn
+    {
+        width: 32px;
+        margin-left: 16px;
+    }
+
+
+
+    /*------------------
+        Form elements
+    ------------------*/
+    .form .agree br
+    {
+        display: none;
+    }
+
+
+    .form .submit_btn
+    {
+        width: 100%;
+    }
+
+
+
+    /*----------------
+        Typography
+    ----------------*/
+    .text_block h2
+    {
+        font-size: 20px;
+        line-height: calc(100% + 6px);
+    }
+
+    .text_block h3
+    {
+        font-size: 19px;
+        line-height: calc(100% + 6px);
+    }
+
+    .text_block h4
+    {
+        line-height: calc(100% + 6px);
+    }
+
+
+    .text_block .slider_block .title
+    {
+        font-size: 20px;
+    }
+
+
+    .text_block ol li
+    {
+        padding-left: 24px;
+    }
+
+
+
+    /*-------------------
+        First section
+    -------------------*/
+    .first_section .cont
+    {
+        padding-top: 100px;
+    }
+
+
+    .first_section .info .pre_title
+    {
+        font-size: 22px;
+    }
+
+    .first_section .info .pre_title span
+    {
+        font-size: 36px;
+    }
+
+
+    .first_section .info .pre_title .icon
+    {
+        width: 40px;
+        height: 60px;
+    }
+
+    .first_section .info .pre_title .icon + div
+    {
+        width: calc(100% - 60px);
+    }
+
+
+    .first_section .info .title
+    {
+        font-size: 20px;
+    }
+
+
+    .first_section .info .desc
+    {
+        font-size: 14px;
+        line-height: 22px;
+    }
+
+
+
+    /*-----------
+        Stats
+    -----------*/
+    .stats .row > *
+    {
+        width: calc(50% - 20px);
+        max-width: calc(50% - 20px);
+    }
+
+
+
+    /*-------------
+        Network
+    -------------*/
+    .network .data .block_title
+    {
+        font-size: 24px;
+    }
+
+
+    .network .video_link
+    {
+        font-size: 24px;
+
+        bottom: 28px;
+        left: 32px;
+    }
+
+    .network .video_link .icon
+    {
+        width: 48px;
+        height: 48px;
+    }
+
+    .network .video_link img
+    {
+        left: -36px;
+
+        width: 112px;
+    }
+
+
+
+    /*------------
+        Why we
+    ------------*/
+    .why_we .block_title
+    {
+        font-size: 24px;
+    }
+
+
+    .why_we .item:before
+    {
+        font-size: 24px;
+        line-height: 24px;
+    }
+
+    .why_we .item .name
+    {
+        font-size: 16px;
+        line-height: 22px;
+    }
+
+
+
+    /*-----------
+        Steps
+    -----------*/
+    .steps .block_title
+    {
+        font-size: 25px;
+    }
+
+
+    .steps .item
+    {
+        font-size: 13px;
+        line-height: 19px;
+    }
+
+
+    .steps .item .icon
+    {
+        width: 132px;
+        height: 132px;
+    }
+
+    .steps .item .icon:before
+    {
+        border-width: 4px;
+    }
+
+    .steps .item .icon:after
+    {
+        width: calc(100% - 20px);
+        height: calc(100% - 20px);
+
+        border-width: 4px;
+    }
+
+    .steps .item .icon div
+    {
+        width: 92px;
+        height: 92px;
+        padding: 16px;
+    }
+
+
+    .steps .your_suggestion
+    {
+        font-size: 18px;
+    }
+
+
+
+    /*---------
+        FAQ
+    ---------*/
+    .faq .block_title
+    {
+        font-size: 19px;
+        line-height: 21px;
+    }
+
+    .faq .block_title span
+    {
+        font-size: 32px;
+
+        margin-bottom: 4px;
+    }
+
+
+
+    /*---------------
+        Geography
+    ---------------*/
+    .geography .block_title
+    {
+        font-size: 32px;
+    }
+
+
+    .geography .cities
+    {
+        width: calc(100% + 48px);
+        max-width: calc(100% + 48px);
+        margin-right: -24px;
+        margin-left: -24px;
+    }
+
+
+
+    /*---------------
+        Geography
+    ---------------*/
+    .gallery .cont
+    {
+        padding: 0;
+    }
+
+
+
+
+    /*------------
+        Footer
+    ------------*/
+    footer .logo
+    {
+        width: 100%;
+    }
+
+    footer .logo img
+    {
+        margin-right: auto;
+        margin-left: auto;
+    }
+
+
+    footer .contacts
+    {
+        display: flex;
+        flex-direction: column;
+
+        width: 100%;
+        margin-top: 20px;
+    }
+
+    footer .contacts > *
+    {
+        width: auto;
+        margin-right: auto;
+        margin-left: auto;
+    }
+
+
+    footer .order_btn
+    {
+        width: auto;
+        margin-top: 20px;
+        margin-right: auto;
+        margin-left: auto;
+    }
+
+
+    footer .location
+    {
+        width: 100%;
+        margin-top: 20px;
+    }
+
+
+    footer .socials
+    {
+        width: 100%;
+        margin-top: 20px;
+
+        text-align: center;
+    }
+
+    footer .socials .items
+    {
+        justify-content: center;
+    }
+
+
+
+    /*-----------
+        PopUp
+    -----------*/
+    .modal_title
+    {
+        font-size: 24px;
+    }
+}

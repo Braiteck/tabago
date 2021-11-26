@@ -1,0 +1,1162 @@
+@media print, (max-width: 1279px)
+{
+    /*-------------------
+        Global styles
+    -------------------*/
+    :root
+    {
+        --font_size: 15px;
+        --font_size_title: 32px;
+    }
+
+
+    html.custom_scroll ::-webkit-scrollbar
+    {
+        width: 5px;
+        height: 5px;
+    }
+
+
+    .swiper-container .prev_next
+    {
+        top: -56px;
+    }
+
+
+
+    /*--------------
+        Fancybox
+    --------------*/
+    .fancybox__slide
+    {
+        padding: 32px;
+    }
+
+
+
+    /*---------------
+        Accordion
+    ---------------*/
+    .accordion .accordion_item .head
+    {
+        padding: 16px 68px 16px 20px;
+    }
+
+
+    .accordion .accordion_item .head .title
+    {
+        line-height: calc(100% + 4px);
+    }
+
+
+    .accordion .accordion_item .head .icon
+    {
+        right: 20px;
+
+        width: 22px;
+        height: 12px;
+    }
+
+
+    .accordion .accordion_item .data
+    {
+        padding: 4px 68px 24px 24px;
+    }
+
+
+
+    /*------------
+        Header
+    ------------*/
+    header .logo
+    {
+        position: relative;
+
+        width: auto;
+        height: auto;
+        margin: 0 auto 0 0;
+
+        inset: 0;
+        order: 1;
+    }
+
+    header .logo img
+    {
+        width: 152px;
+    }
+
+
+    header .col_left
+    {
+        width: auto;
+
+        order: 2;
+    }
+
+    header .col_right
+    {
+        width: auto;
+        margin-left: 32px;
+
+        order: 3;
+    }
+
+
+    header .phone
+    {
+        font-size: 18px;
+
+        margin: 0 0 0 52px;
+
+        order: 2;
+    }
+
+
+    header .links > * + *
+    {
+        margin-left: 32px;
+    }
+
+    header .links a
+    {
+        font-size: 16px;
+
+        min-height: 30px;
+    }
+
+    header .links a span:after
+    {
+        bottom: -12px;
+
+        height: 5px;
+    }
+
+
+
+    /*---------------
+        Page head
+    ---------------*/
+    .page_head
+    {
+        padding-top: 20px;
+    }
+
+
+    .page_title
+    {
+        line-height: calc(100% + 6px);
+    }
+
+
+
+    /*----------------
+        Block head
+    ----------------*/
+    .block_head .title
+    {
+        padding-bottom: 12px;
+    }
+
+
+    .block_head .all_link
+    {
+        font-size: 16px;
+
+        margin-bottom: 8px;
+        margin-left: 20px;
+    }
+
+
+
+
+    /*------------------
+        Form elements
+    ------------------*/
+    .form .label
+    {
+        line-height: 20px;
+
+        margin-bottom: 4px;
+    }
+
+
+    .form .submit_btn
+    {
+        font-size: 17px;
+
+        padding: 16px 40px 17px;
+    }
+
+
+    .form .exp
+    {
+        font-size: 13px;
+        line-height: 19px;
+
+        margin-top: 20px;
+    }
+
+
+
+    /*----------------
+        Typography
+    ----------------*/
+    .text_block
+    {
+        line-height: calc(100% + 8px);
+    }
+
+
+    .text_block h2
+    {
+        font-size: 28px;
+        line-height: calc(100% + 8px);
+
+        margin-bottom: 12px;
+    }
+
+    .text_block h3
+    {
+        font-size: 25px;
+        line-height: calc(100% + 8px);
+
+        margin-bottom: 12px;
+    }
+
+    .text_block h4
+    {
+        font-size: 22px;
+        line-height: calc(100% + 8px);
+
+        margin-bottom: 12px;
+    }
+
+
+    .text_block * + h2,
+    .text_block * + h3,
+    .text_block * + h4
+    {
+        margin-top: 40px;
+    }
+
+
+    .text_block img
+    {
+        margin-top: 40px;
+        margin-bottom: 40px;
+    }
+
+
+    .text_block .bg
+    {
+        margin-top: 40px;
+        margin-bottom: 40px;
+        padding: 28px;
+    }
+
+    .text_block .bg.big_pad
+    {
+        padding: 32px;
+    }
+
+
+    .text_block .slider_block
+    {
+        margin-top: 40px;
+        margin-bottom: 40px;
+    }
+
+    .text_block .slider_block .title
+    {
+        font-size: 32px;
+        line-height: calc(100% + 6px);
+
+        margin-bottom: 20px;
+    }
+
+    .text_block .slider_block .swiper-container .slide
+    {
+        visibility: visible;
+
+        pointer-events: auto;
+
+        opacity: 1;
+    }
+
+
+    .text_block figure figcaption
+    {
+        font-size: 14px;
+        line-height: calc(100% + 8px);
+
+        margin-top: 20px;
+    }
+
+
+    .text_block .cols .col
+    {
+        width: calc(50% - 12px);
+    }
+
+
+    .text_block table th,
+    .text_block table td
+    {
+        padding-right: 24px;
+        padding-left: 24px;
+    }
+
+
+    .text_block ul li:before
+    {
+        top: 8px;
+    }
+
+
+    .text_block ol li:before
+    {
+        font-size: 16px;
+        line-height: calc(100% + 7px);
+    }
+
+    .text_block ol li + li
+    {
+        margin-top: 16px;
+    }
+
+
+
+    /*-------------------
+        First section
+    -------------------*/
+    .first_section .cont
+    {
+        min-height: 640px;
+        padding-top: 140px;
+        padding-bottom: 60px;
+    }
+
+
+    .first_section .info .pre_title
+    {
+        font-size: 36px;
+        line-height: calc(100% + 8px);
+
+        margin-bottom: 28px;
+    }
+
+    .first_section .info .pre_title span
+    {
+        font-size: 68px;
+        line-height: calc(100% + 6px);
+
+        margin-top: 12px;
+        margin-left: -4px;
+    }
+
+
+    .first_section .info .pre_title .icon
+    {
+        width: 80px;
+        height: 107px;
+    }
+
+    .first_section .info .pre_title .icon + div
+    {
+        width: calc(100% - 104px);
+    }
+
+
+    .first_section .info .title
+    {
+        font-size: 32px;
+        line-height: 40px;
+
+        width: 492px;
+    }
+
+
+    .first_section .info .desc
+    {
+        font-size: 18px;
+        line-height: 26px;
+
+        width: 412px;
+        margin-top: 12px;
+    }
+
+
+    .first_section .info .btn
+    {
+        font-size: 17px;
+
+        margin-top: 32px;
+        padding: 16px 40px 17px;
+    }
+
+
+
+    /*-----------
+        Stats
+    -----------*/
+    .stats
+    {
+        padding: 64px 0;
+    }
+
+
+    .stats .item
+    {
+        font-size: 14px;
+        line-height: 20px;
+    }
+
+
+    .stats .item .icon
+    {
+        height: 68px;
+        margin-bottom: 20px;
+    }
+
+
+    .stats .item .name
+    {
+        font-size: 16px;
+        line-height: 22px;
+    }
+
+
+    .stats .item .desc
+    {
+        margin-top: 8px;
+    }
+
+
+
+    /*-------------
+        Network
+    -------------*/
+    .network .data
+    {
+        width: 50%;
+        padding: 64px 64px 64px 0;
+    }
+
+
+    .network .data .block_title
+    {
+        font-size: 32px;
+
+        margin-bottom: 28px;
+        padding-bottom: 12px;
+    }
+
+    .network .data .desc
+    {
+        font-size: 15px;
+        line-height: 25px;
+    }
+
+
+    .network .video_link
+    {
+        font-size: 40px;
+        line-height: calc(100% + 8px);
+
+        bottom: 40px;
+        left: 8px;
+    }
+
+    .network .video_link .icon
+    {
+        width: 72px;
+        height: 72px;
+        margin-right: 32px;
+    }
+
+    .network .video_link img
+    {
+        bottom: -16px;
+        left: -64px;
+
+        width: 200px;
+    }
+
+
+
+    /*------------
+        Why we
+    ------------*/
+    .why_we
+    {
+        padding: 64px 0;
+    }
+
+
+    .why_we .block_title
+    {
+        font-size: 52px;
+        line-height: calc(100% + 8px);
+    }
+
+
+    .why_we .row
+    {
+        margin-left: -32px;
+        padding-right: 0;
+    }
+
+    .why_we .row > *
+    {
+        width: calc(33.333% - 32px);
+        max-width: calc(33.333% - 32px);
+        margin-left: 32px;
+    }
+
+
+    .why_we .item
+    {
+        font-size: 14px;
+        line-height: 20px;
+    }
+
+    .why_we .item .name
+    {
+        font-size: 18px;
+    }
+
+
+    .why_we .order_btn
+    {
+        font-size: 17px;
+
+        width: 240px;
+        margin-top: 0;
+        margin-left: 64px;
+        padding: 16px 24px 17px;
+
+        align-self: center;
+    }
+
+
+
+    /*-----------
+        Steps
+    -----------*/
+    .steps
+    {
+        padding: 64px 0;
+    }
+
+
+    .steps .block_title
+    {
+        font-size: 52px;
+        line-height: calc(100% + 8px);
+
+        margin-bottom: 40px;
+        padding-bottom: 10px;
+    }
+
+    .steps .block_title span
+    {
+        line-height: 100%;
+
+        margin-left: 8px;
+    }
+
+
+
+    .steps .item br
+    {
+        display: none;
+    }
+
+
+
+    .steps .your_suggestion
+    {
+        font-size: 22px;
+        line-height: calc(100% + 8px);
+
+        margin-top: 40px;
+    }
+
+    .steps .your_suggestion .btn
+    {
+        font-size: 17px;
+
+        width: 320px;
+        height: 48px;
+        margin: 16px auto 0;
+    }
+
+    .steps .your_suggestion .btn .icon
+    {
+        margin-right: 16px;
+    }
+
+
+
+    .steps .bg
+    {
+        top: -200px;
+    }
+
+
+
+    /*---------
+        FAQ
+    ---------*/
+    .faq
+    {
+        padding: 64px 0;
+    }
+
+
+    .faq .block_title
+    {
+        font-size: 32px;
+        line-height: calc(100% + 8px);
+
+        margin-bottom: 24px;
+        padding-bottom: 16px;
+    }
+
+    .faq .block_title span
+    {
+        font-size: 48px;
+        line-height: 100%;
+
+        margin-left: 8px;
+    }
+
+
+
+    /*--------------------
+        Links carousel
+    --------------------*/
+    .links_carousel
+    {
+        padding: 64px 0;
+    }
+
+
+    .links_carousel .swiper-container
+    {
+        padding: 0 52px;
+    }
+
+    .links_carousel .swiper-container:before
+    {
+        right: calc(100% - 52px);
+    }
+
+    .links_carousel .swiper-container:after
+    {
+        left: calc(100% - 52px);
+    }
+
+    .links_carousel .swiper-container .slide
+    {
+        visibility: visible;
+
+        pointer-events: auto;
+
+        opacity: 1;
+    }
+
+
+
+    /*---------------
+        Geography
+    ---------------*/
+    .geography
+    {
+        height: auto;
+        padding: 64px 0;
+    }
+
+
+    .geography .block_title
+    {
+        font-size: 52px;
+        line-height: calc(100% + 8px);
+    }
+
+    .geography .block_title br
+    {
+        display: none;
+    }
+
+
+    .geography .cities
+    {
+        font-size: 15px;
+        line-height: 23px;
+
+        position: relative;
+        top: 0;
+        right: 0;
+
+        width: 100%;
+        margin-top: 32px;
+        padding: 24px;
+
+        background: rgba(0,0,0,.62);
+
+        column-gap: 24px;
+        column-count: 4;
+    }
+
+    .geography .cities > *
+    {
+        transform: translateZ(0);
+
+        --webkit-column-break-inside: avoid;
+        page-break-inside: avoid;
+        break-inside: avoid;
+    }
+
+    .geography .cities > * + *
+    {
+        margin-top: 4px;
+    }
+
+
+    .geography .map
+    {
+        margin-top: 32px;
+    }
+
+
+    .geography .img
+    {
+        display: none;
+    }
+
+
+
+    /*-------------
+        Gallery
+    -------------*/
+    .gallery .grid
+    {
+        height: 974px;
+    }
+
+
+    .gallery .item1 div
+    {
+        width: 507px;
+        height: 344px;
+    }
+
+
+    .gallery .item2 div
+    {
+        width: 507px;
+        height: 167px;
+    }
+
+
+    .gallery .item3
+    {
+        top: 177px;
+    }
+
+    .gallery .item3 div
+    {
+        width: 249px;
+        height: 167px;
+    }
+
+
+    .gallery .item4
+    {
+        top: 177px;
+
+        margin-left: 264px;
+    }
+
+    .gallery .item4 div
+    {
+        width: 249px;
+        height: 167px;
+    }
+
+
+    .gallery .item5
+    {
+        top: 354px;
+    }
+
+    .gallery .item5 div
+    {
+        width: 507px;
+        height: 322px;
+    }
+
+
+    .gallery .item6
+    {
+        top: 354px;
+    }
+
+    .gallery .item6 div
+    {
+        width: 507px;
+        height: 419px;
+    }
+
+
+    .gallery .item7
+    {
+        top: 783px;
+    }
+
+    .gallery .item7 div
+    {
+        width: 300px;
+        height: 191px;
+    }
+
+
+
+    /*--------------
+        Partners
+    --------------*/
+    .partners
+    {
+        padding: 64px 0;
+    }
+
+
+    .partners .block_title
+    {
+        font-size: 36px;
+        line-height: calc(100% + 8px);
+
+        margin-bottom: 60px;
+        padding-bottom: 12px;
+    }
+
+
+    .partners .swiper-container
+    {
+        width: 780px;
+    }
+
+
+    .partners .swiper-button-next,
+    .partners .swiper-button-prev
+    {
+        top: -100px;
+    }
+
+    .partners .swiper-button-prev
+    {
+        right: 72px;
+    }
+
+    .partners .swiper-button-next .icon,
+    .partners .swiper-button-prev .icon
+    {
+        width: 49px;
+        height: 21px;
+    }
+
+
+    .partners .partner
+    {
+        padding: 1px 28px 28px;
+    }
+
+
+    .partners .partner .person
+    {
+        margin-top: -52px;
+        margin-bottom: 16px;
+    }
+
+    .partners .partner .person .photo
+    {
+        margin-bottom: 12px;
+    }
+
+    .partners .partner .person .name
+    {
+        font-size: 17px;
+    }
+
+
+    .partners .partner .point
+    {
+        font-size: 17px;
+
+        margin-bottom: 16px;
+        padding-bottom: 12px;
+    }
+
+
+    .partners .img
+    {
+        top: 20px;
+        right: auto;
+        left: 50%;
+
+        width: 400px;
+        margin-right: 0;
+        margin-left: 250px;
+    }
+
+
+
+    /*------------
+        Brands
+    ------------*/
+    .brands .swiper-button-next,
+    .brands .swiper-button-prev
+    {
+        top: -53px;
+    }
+
+    .brands .swiper-button-prev
+    {
+        right: 72px;
+    }
+
+    .brands .swiper-button-next .icon,
+    .brands .swiper-button-prev .icon
+    {
+        width: 49px;
+        height: 21px;
+    }
+
+
+    .brands .item
+    {
+        height: 80px;
+    }
+
+
+
+    /*--------------
+        Products
+    --------------*/
+    .products .swiper-button-next,
+    .products .swiper-button-prev
+    {
+        top: -53px;
+    }
+
+    .products .swiper-button-prev
+    {
+        right: 72px;
+    }
+
+    .products .swiper-button-next .icon,
+    .products .swiper-button-prev .icon
+    {
+        width: 49px;
+        height: 21px;
+    }
+
+
+    .products .product
+    {
+        padding: 24px;
+    }
+
+
+    .products .product .thumb
+    {
+        margin-bottom: 16px;
+    }
+
+
+
+    /*--------------
+        Feedback
+    --------------*/
+    .feedback
+    {
+        padding-top: 72px;
+        padding-bottom: 64px;
+    }
+
+
+    .feedback .data
+    {
+        width: 432px;
+        margin-right: 0;
+    }
+
+
+
+    /*--------------
+        Articles
+    --------------*/
+    .articles .list > * + *
+    {
+        margin-top: 16px;
+    }
+
+
+    .articles .article
+    {
+        padding: 28px;
+    }
+
+
+    .articles .article .thumb
+    {
+        width: 264px;
+        height: 204px;
+    }
+
+
+    .articles .article .thumb + .info
+    {
+        width: calc(100% - 288px);
+    }
+
+
+    .articles .article .name
+    {
+        font-size: 22px;
+        line-height: calc(100% + 8px);
+    }
+
+    .articles .article .desc
+    {
+        font-size: 14px;
+        line-height: calc(100% + 8px);
+
+        margin-top: 12px;
+    }
+
+    .articles .article .date
+    {
+        font-size: 14px;
+        line-height: calc(100% + 8px);
+
+        margin-top: 12px;
+    }
+
+
+
+    /*-------------------
+        Contacts info
+    -------------------*/
+    .contacts_info .cont > * + *
+    {
+        margin-top: 24px;
+    }
+
+
+    .contacts_info .data
+    {
+        padding: 32px 28px;
+    }
+
+
+    .contacts_info .data .phone
+    {
+        font-size: 18px;
+    }
+
+    .contacts_info .data .phone .icon
+    {
+        margin-right: 12px;
+    }
+
+
+    .contacts_info .data .email
+    {
+        margin-left: 52px;
+    }
+
+    .contacts_info .data .email .icon
+    {
+        margin-right: 12px;
+    }
+
+
+    .contacts_info .data .location
+    {
+        width: calc(100% - 552px);
+    }
+
+    .contacts_info .data .location .icon
+    {
+        margin-right: 12px;
+    }
+
+
+
+    /*------------------
+        Page anchors
+    ------------------*/
+    .page_anchors .row
+    {
+        margin-left: -24px;
+    }
+
+    .page_anchors .row > *
+    {
+        width: calc(33.333% - 24px);
+        margin-left: 24px;
+    }
+
+
+
+    /*------------
+        Footer
+    ------------*/
+    footer .info
+    {
+        padding: 64px 0 24px;
+    }
+
+
+    footer .logo img
+    {
+        width: 140px;
+    }
+
+
+    footer .contacts .phone .icon
+    {
+        margin-right: 14px;
+    }
+
+    footer .contacts .email .icon
+    {
+        margin-right: 12px;
+    }
+
+
+    footer .order_btn
+    {
+        font-size: 15px;
+
+        padding: 12px 20px 13px;
+    }
+
+
+    footer .location
+    {
+        font-size: 14px;
+    }
+
+    footer .location .icon
+    {
+        margin-right: 12px;
+    }
+
+    footer .location span
+    {
+        max-width: calc(100% - 24px);
+    }
+}
