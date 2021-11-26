@@ -742,7 +742,7 @@
     -------------*/
     .gallery .grid
     {
-        height: 974px;
+        height: 945px;
     }
 
 
@@ -813,12 +813,50 @@
     .gallery .item7
     {
         top: 783px;
+        right: calc(50% + 265px);
     }
 
     .gallery .item7 div
     {
-        width: 300px;
-        height: 191px;
+        width: 250px;
+        height: 162px;
+    }
+
+
+    .gallery .item8
+    {
+        top: 783px;
+    }
+
+    .gallery .item8 div
+    {
+        width: 250px;
+        height: 162px;
+    }
+
+
+    .gallery .item9
+    {
+        top: 783px;
+    }
+
+    .gallery .item9 div
+    {
+        width: 250px;
+        height: 162px;
+    }
+
+
+    .gallery .item10
+    {
+        top: 783px;
+        left: calc(50% + 265px);
+    }
+
+    .gallery .item10 div
+    {
+        width: 250px;
+        height: 162px;
     }
 
 

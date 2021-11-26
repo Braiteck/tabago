@@ -454,7 +454,7 @@
     -------------*/
     .gallery .grid
     {
-        height: 618px;
+        height: 620px;
     }
 
 
@@ -525,12 +525,50 @@
     .gallery .item7
     {
         top: 502px;
+        right: calc(50% + 200px);
     }
 
     .gallery .item7 div
     {
         width: 185px;
-        height: 116px;
+        height: 118px;
+    }
+
+
+    .gallery .item8
+    {
+        top: 502px;
+    }
+
+    .gallery .item8 div
+    {
+        width: 185px;
+        height: 118px;
+    }
+
+
+    .gallery .item9
+    {
+        top: 502px;
+    }
+
+    .gallery .item9 div
+    {
+        width: 185px;
+        height: 118px;
+    }
+
+
+    .gallery .item10
+    {
+        top: 502px;
+        left: calc(50% + 200px);
+    }
+
+    .gallery .item10 div
+    {
+        width: 185px;
+        height: 118px;
     }
 
 

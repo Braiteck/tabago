@@ -2763,7 +2763,7 @@ header .mob_menu .links a.active
 {
     position: relative;
 
-    height: 1327px;
+    height: 1319px;
 }
 
 
@@ -2895,13 +2895,54 @@ header .mob_menu .links a.active
 
 .gallery .item7
 {
-    top: 1091px;
+    top: 1083px;
+    right: calc(50% + 385px);
+}
+
+.gallery .item7 div
+{
+    width: 370px;
+    height: 236px;
+}
+
+
+.gallery .item8
+{
+    top: 1083px;
     right: 50%;
 
     margin-right: 5px;
 }
 
-.gallery .item7 div
+.gallery .item8 div
+{
+    width: 370px;
+    height: 236px;
+}
+
+
+.gallery .item9
+{
+    top: 1083px;
+    left: 50%;
+
+    margin-left: 5px;
+}
+
+.gallery .item9 div
+{
+    width: 370px;
+    height: 236px;
+}
+
+
+.gallery .item10
+{
+    top: 1083px;
+    left: calc(50% + 385px);
+}
+
+.gallery .item10 div
 {
     width: 370px;
     height: 236px;

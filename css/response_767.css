@@ -423,7 +423,10 @@
     .gallery .item4 div,
     .gallery .item5 div,
     .gallery .item6 div,
-    .gallery .item7 div
+    .gallery .item7 div,
+    .gallery .item8 div,
+    .gallery .item9 div,
+    .gallery .item10 div
     {
         width: 100%;
         height: auto;
@@ -459,7 +462,10 @@
         padding-bottom: 59.77%;
     }
 
-    .gallery .item7 div
+    .gallery .item7 div,
+    .gallery .item8 div,
+    .gallery .item9 div,
+    .gallery .item10 div
     {
         padding-bottom: 63.78%;
     }
